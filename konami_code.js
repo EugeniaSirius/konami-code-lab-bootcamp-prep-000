@@ -12,9 +12,9 @@ const codes = [
 ];
  
 function init() {
-  
-    //const key=e.key
+      //const key=e.key
    document.body.addEventListener('keydown', function(e) {
+     
   let index = 0 
   let  key = parseInt(event.key)
      if (key===codes[index]) {
