@@ -16,7 +16,7 @@ function init() {
     //const key=e.key
    document.body.addEventListener('keydown', function(e) {
   let index = 0 
-  let  key = parseInt(e.key)
+  let  key = parseInt(event.key)
      if (key===codes[index]) {
      index++
      if (index===codes.length)  { 
@@ -24,7 +24,7 @@ function init() {
        alert('Hurray!')
       } 
    } else {
-     console.log(e.which)
+     console.log(event.which)
        index=0  
    } 
  } )
