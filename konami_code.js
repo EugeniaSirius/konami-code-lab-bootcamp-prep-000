@@ -24,7 +24,7 @@ function init() {
        alert('Hurray!')
       } 
    } else {
-     console.log(event.which)
+     //console.log(event.which)
        index=0  
    } 
  } )
